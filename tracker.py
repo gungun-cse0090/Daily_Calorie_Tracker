@@ -55,7 +55,7 @@ print(f"Average:\t{average_calories:.2f}")
 save = input("Do you want to save this report? (yes/no): ").lower()
 
 if save == "yes":
-    f = open("calorie_log.txt", "a")  # 'a' for append
+    f = open("calorie_log.txt", "a") 
     f.write("Your Daily Calorie Report\n")
     for i in range(len(meals)):
         f.write(f"{meals[i]}: {calories[i]} calories\n")
@@ -69,4 +69,5 @@ if save == "yes":
     print("✅ Report saved in calorie_log.txt")
 else:
     print("Report not saved.")
+
 
