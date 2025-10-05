@@ -31,9 +31,9 @@ daily_limit = float(input("\nEnter your daily calorie limit: "))
 #Task 4 — Limit Check
 
 if total_calories > daily_limit:
-    print("\n⚠️ You have exceeded your daily calorie limit!")
+    print("\n You have exceeded your daily calorie limit!")
 else:
-    print("\n✅ Great! You are within your daily calorie goal.")
+    print("\n Great! You are within your daily calorie goal.")
 
 
 
@@ -66,8 +66,9 @@ if save == "yes":
     else:
         f.write("Status: Within limit!\n\n")
     f.close()
-    print("✅ Report saved in calorie_log.txt")
+    print(" Report saved in calorie_log.txt")
 else:
     print("Report not saved.")
+
 
 
